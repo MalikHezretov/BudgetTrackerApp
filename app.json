@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "BudgetTracker",
+    "scheme": "budgettracker",
+    "description": "Highly customizable budget tracker",
+    "version": "1.0.0",
+    "slug": "BudgetTracker",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "ios": {
+      "bundleIdentifier": "com.mit.budgeTracker"
+    },
+    "android": {
+      "package": "com.mit.budgeTracker"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "orientation": "portrait",
+    "primaryColor": "#8BC34A",
+    "androidStatusBarColor": "#6e8fdd",
+    "androidStatusBar": {
+      "backgroundColor": "#6e8fdd",
+      "barStyle": "dark-content"
+    },
+    "icon": "./app/assets/images/app-icon.png",
+    "splash": {
+      "image": "./app/assets/images/splash.png",
+      "resizeMode": "cover"
+    }
+  }
+}
